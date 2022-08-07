@@ -1,0 +1,114 @@
+.display-exercises {
+  position: absolute;
+  text-align: right;
+  top: 50px;
+  left: 230px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.exercise-items {
+  display: flex;
+  position: relative;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 50px;
+}
+
+.exercise-items li {
+  float: left;
+  width: 20%;
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  background-color: rgb(34, 34, 34);
+  margin: 5px;
+  flex: 0 1 20%;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgb(226, 226, 226);
+}
+
+.exercise-items li:hover {
+  background-color: #0096c7;
+  color: #1b1b1b;
+  box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.exercise-items img {
+  width: 100%;
+  height: 80%;
+  margin: 0;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.exercise-text {
+  position: relative;
+  display: grid;
+  gap: 3px;
+  padding: 5px 10px 5px 10px;
+}
+
+.body-part {
+  font-size: 18px;
+  font-weight: 550;
+}
+
+.exercise-name {
+  font-size: 16px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.exercise-inspect {
+  position: fixed;
+  z-index: 1001;
+  top: 25%;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+}
+
+.inspected-txt {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  gap: 50px;
+  justify-content: center;
+}
+
+.inspected-txt label {
+  font-size: 1.3rem;
+  font-weight: 540;
+}
+
+.back-btn {
+  position: fixed;
+  top: -25%;
+  left: -48%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #0096c7;
+  font-weight: 350;
+  margin: 0;
+  padding: 0;
+}
+
+.arrow {
+  width: 40px;
+  height: 40px;
+}
+
+.back-btn span {
+  font-size: 1rem;
+}

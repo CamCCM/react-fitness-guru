@@ -1,0 +1,36 @@
+.sidebar {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 18%;
+  color: #0096c7;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.sidebar-items {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  top: 60px;
+}
+
+.sidebar-item {
+  position: relative;
+  cursor: pointer;
+  padding: 10px;
+  left: -25px;
+  border-radius: 5px;
+}
+
+.sidebar-item:hover {
+  background-color: whitesmoke;
+  color: #0077b6;
+}
+
+.sidebar-item span {
+  font-size: 18px;
+  font-weight: 540;
+}
